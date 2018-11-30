@@ -135,10 +135,10 @@ spec:
       spec:
         accessModes:
           - ReadWriteOnce
-        storageClassName: ssd
+#        storageClassName: nfs
         resources:
           requests:
-            storage: 250Gi
+            storage: 10Gi
 ---
 apiVersion: policy/v1beta1
 kind: PodDisruptionBudget
