@@ -1,9 +1,9 @@
-*.pem
-*.crt
-*.key
-credentials
+#*.pem
+#*.crt
+#*.key
+#credentials
 
-clusters/**
+#clusters/**
 __pycache__
 
 .DS_Store
